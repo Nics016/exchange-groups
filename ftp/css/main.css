@@ -1,0 +1,254 @@
+.tabs{
+	display: block;
+	width: 900px;
+	margin: 15px auto;
+	margin-bottom: 0;
+}
+
+.tabs-link{
+	display: block;
+	float: left;
+	width: 130px;
+	margin-left: 15px;
+	font-size: 18px;
+	color: #000;
+	padding: 10px;
+	padding-left: 60px;
+	text-decoration: none;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background: url(../img/main-vk.png) no-repeat;
+	background-size: 45px 45px;
+	transition: all .25s;
+	cursor: pointer;
+}
+
+button:focus{
+	outline: none;
+}
+
+/* VK */
+.tabs-link:first-child:hover{
+	background: url(../img/main-vk-active.png) no-repeat;
+	background-size: 45px 45px;
+	color: #507299;
+}
+
+/* OK */
+.tabs-link:nth-child(2):hover{
+	background: url(../img/main-ok-active.png) no-repeat;
+	background-size: 45px 45px;
+	color: #F3710A;
+}
+
+.tabs-link:nth-child(2){
+	background: url(../img/main-ok.png) no-repeat;
+	background-size: 35px 35px;
+	background-position: 5px 5px;
+}
+
+/* Instagram */
+.tabs-link:nth-child(3):hover{
+	background: url(../img/main-instagram-active.png) no-repeat;
+	background-size: 45px 45px;
+	color: #8C5845;
+}
+
+.tabs-link:nth-child(3){
+	background: url(../img/main-instagram.png) no-repeat;
+	background-size: 45px 45px;
+}
+
+/* Facebook */
+.tabs-link:nth-child(4):hover{
+	background: url(../img/main-fb-active.png) no-repeat;
+	background-size: 40px 40px;
+	color: #507299;
+	background-position: 1px 1px;
+}
+
+.tabs-link:nth-child(4){
+	background: url(../img/main-fb.png) no-repeat;
+	background-size: 40px 40px;
+}
+
+/* searchfield */
+.searchfield{
+	display: block;
+	margin-top: 30px;
+	padding: 0 50px;
+}
+
+.searchfield-text:focus{
+	outline: none;
+}
+
+.searchfield-text{
+	font-size: 24px;
+	padding: 10px 50px;
+	width: 600px;
+	border-radius: 10px;
+	border: 2px solid #2F4D78;
+	margin-left: 70px;
+}
+
+.searchfield-submit:focus{
+	outline: none;
+}
+
+.searchfield-submit:hover{
+	background-color: #486997;
+}
+
+.searchfield-submit{
+	font-size: 24px;
+	padding: 10px 50px;
+	width: 200px;
+	border-radius: 10px;
+	background-color: #2F4D78;
+	color: #fff;
+	margin-left: 15px;
+	cursor: pointer;
+	transition: all .25s;
+}
+
+.searchparams{
+	margin-top: 30px;
+	padding-left: 120px;
+	font-size: 16px;
+}
+
+.searchparams-line{
+	margin-top: 15px;
+}
+
+.searching-line-select{
+	padding: 5px 0;
+	padding-left: 60px;
+	font-size: 18px;
+	margin-left: 80px;
+	width: 200px;
+	font-weight: bold;
+}
+
+.searchparams-line-descr{
+	display: block;
+	float: left;
+	width: 150px;
+}
+
+.searchparams-line-from-input, .searchparams-line-to-input{
+	margin: 0 10px;
+	padding: 3px 0;
+	padding-left: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	width: 100px;
+}
+
+/* MAIN-LIST */
+.main-list{
+	margin-top: 50px;
+}
+
+.main-list-element{
+	display: block;
+	float: left;
+	position: relative;
+	width: 370px;
+	height: 230px;
+	margin-left: 15px;
+	margin-top: 15px;
+	overflow: hidden;
+	border: 2px solid darkgrey;
+	border-radius: 5px;
+	background-color: #e8e8f9;
+	font-size: 16px;
+}
+
+.main-list-element-title:hover{
+	color: #2a528c;
+}
+
+.main-list-element-title{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 18px;
+	font-family: SegoeUIBold;
+	color: black;
+	text-decoration: none;
+	color: #193154;
+	transition: all .15s;
+}
+
+.main-list-element-pic{
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.main-list-element-topic{
+	position: absolute;
+	top: 10px;
+	left: 250px;
+	font-size: 16px;
+	font-style: italic;
+	color: grey;
+}
+
+.main-list-element-subscribers{
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 200px;
+	width: 100px;
+	padding: 7px 20px;
+	border: 1px solid #5587ce;
+	border-radius: 5px;
+	background-color: #84b2f3;
+	color: white;
+	text-align: center;
+}
+
+.main-list-element-income{
+	position: absolute;
+	top: 120px;
+	left: 190px;
+	font-family: SegoeUIBold;
+	color: #3d70b9;
+}
+
+.main-list-element-price{
+	position: absolute;
+	top: 150px;
+	left: 195px;
+	font-family: SegoeUIBold;
+	color: #30ca43;
+	font-size: 18px;
+}
+
+.main-list-element-btn:hover{
+	background-color: #486997;
+}
+
+.main-list-element-btn{
+	position: absolute;
+	top: 185px;
+	left: 150px;
+	color: white;
+	font-size: 16px;
+	background-color: #2F4D78;
+	border-radius: 5px;
+	padding: 5px 15px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all .15s;
+}
+
+.btn-more{
+	left: 240px;
+}
